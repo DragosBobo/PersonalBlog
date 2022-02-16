@@ -24,7 +24,7 @@
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px dashed black;
+  /* border: 1px dashed black; */
 }
 /* min14:18 */
 .topIcons {
