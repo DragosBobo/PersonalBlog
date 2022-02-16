@@ -4,9 +4,10 @@ import "./Navbar.css"
 function Navbar() {
   return (
     <div className='navbar'>
-       <div className='navbar__left'><i class=" topIcons fa-brands fa-instagram-square"></i>
-       <i class="topIcons fa-brands fa-facebook-square"></i>
-       <i class="topIcons fa-brands fa-github-square"></i>
+       <div className='navbar__left'>
+         <a href=' '><i class=" topIcons fa-brands fa-instagram-square"></i></a>
+      <a href='https://www.facebook.com/boboluta.dragos/'> <i class="topIcons fa-brands fa-facebook-square"></i></a>
+      <a href='https://github.com/DragosBobo '> <i class="topIcons fa-brands fa-github-square"></i></a>
        
        </div>
        <div className='navbar__center'>
