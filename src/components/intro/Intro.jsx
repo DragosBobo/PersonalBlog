@@ -2,7 +2,7 @@ import "./Intro.scss"
 
 function Intro() {
   return (
-    <div className="intro"> sdasdasd</div>
+    <div className="intro" id="intro"> sdasdasd</div>
   )
 }
 

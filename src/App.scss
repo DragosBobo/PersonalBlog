@@ -6,6 +6,7 @@
     background-color: pink;
     position: relative;
     top: 70px;
+    scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     &::-webkit-scrollbar {
       width: 0;
