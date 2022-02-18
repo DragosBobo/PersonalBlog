@@ -16,12 +16,19 @@
     .left {
       display: flex;
       align-items: center;
+      @include mobile{
+        flex-direction: column;
+        padding: 5px;
+      }
       .logo {
         font-size: 40px;
         font-weight: 700;
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
+        @include mobile{
+          display: none;
+        }
       }
       .itemContainer {
         display: flex;
