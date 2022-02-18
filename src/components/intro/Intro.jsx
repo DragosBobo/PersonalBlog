@@ -7,7 +7,7 @@ function Intro() {
     init(textRef.current,{
       showCursor:true,
       backDelay:1500,
-      strings:["Developer","Designer","Content Creator"],
+      strings:["Developer","Student","Designer","Content Creator"],
     });
 
   },[]);
@@ -22,7 +22,7 @@ function Intro() {
       <div className="wrapper">
         <h2>Hello , I'm </h2>
         <h1>Dragos Daniel </h1>
-        <h3>Freelancer <span ref={textRef}> </span></h3>
+        <h3>I am <span ref={textRef}> </span></h3>
       </div>
       <a href="#portofolio">
         <img src="assets/down.png" alt=""/>
