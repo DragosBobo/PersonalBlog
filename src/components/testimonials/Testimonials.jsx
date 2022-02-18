@@ -4,34 +4,34 @@ function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
-      title: "Senior Developer",
+      name: "Burciu Alexandru ",
+      title: "Developer for ATOS Timisoara ",
       img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://scontent.fcra1-1.fna.fbcdn.net/v/t1.6435-9/190943555_1712906808896877_8608226842976003607_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=174925&_nc_ohc=NNuDzqGmg9kAX8zqWCG&_nc_ht=scontent.fcra1-1.fna&oh=00_AT_i0AW0v5r5LbbpAk2lHLZr9GrPsZHhsgLjmAs6lrs5pA&oe=6234E0A8",
       icon: "assets/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "He's a very serious guy, really good delivery and respects every deadline :*",
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
+      name: "Filis Andrei ",
+      title: "Student Politehnica Bucuresti ",
       img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://scontent.fcra1-1.fna.fbcdn.net/v/t39.30808-6/271151128_3645272562264648_8402742632714446117_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=EsHWeHJoG1YAX9vQ7j8&tn=l-80_JORztCArx6y&_nc_ht=scontent.fcra1-1.fna&oh=00_AT9y__SNgWPZ7eT96qtvUveya--EgPWNRYz9h2DxKlefAg&oe=6215DEC4",
       icon: "assets/youtube.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+        "nimic momentan :/ ",
       featured: true,
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Remus ",
+      title: "London bank employed",
       img:
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://scontent.fcra1-1.fna.fbcdn.net/v/t1.18169-1/c0.0.260.260a/20664432_683129138552830_755641267856127665_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=7206a8&_nc_ohc=xOao3lgKNlEAX9QXZwq&_nc_ht=scontent.fcra1-1.fna&oh=00_AT_5tFFZT0QMOYDQEZnPY_Ud8bOWqDAa2b4s7Pf0xQhMIg&oe=6236B406",
       icon: "assets/linkedin.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "tot nimic momentan :/",
     },
   ];
   return (
