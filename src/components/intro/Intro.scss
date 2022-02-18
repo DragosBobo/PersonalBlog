@@ -3,12 +3,13 @@
 .intro {
   background-color: rgb(255, 255, 255);
   display: flex;
-  @include mobile{
+  @include mobile {
     flex-direction: column;
     align-items: center;
   }
   .left {
     flex: 0.5;
+    overflow: hidden;
     &::-webkit-scrollbar {
       width: 0;
     }
@@ -22,15 +23,14 @@
       justify-content: center;
       align-items: center;
       float: right;
-      @include mobile{
+      @include mobile {
         align-items: flex-start;
       }
       img {
         height: 100%;
-        @include mobile{
-          height:50% ;
+        @include mobile {
+          height: 50%;
         }
-        
       }
       object-fit: cover;
     }
@@ -47,6 +47,9 @@
       h1 {
         font-size: 60px;
         margin: 10px 0;
+        @include mobile{
+          font-size: 40px;
+        }
       }
       h2 {
         font-size: 35px;
@@ -61,13 +64,12 @@
           animation: blink 1s infinite;
         }
         @keyframes blink {
-            50%{
-                opacity: 1;
-            }
-            100%{
-                opacity: 0;
-            }
-            
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
         }
       }
     }
