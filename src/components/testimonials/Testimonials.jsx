@@ -38,22 +38,23 @@ function Testimonials() {
     <div className="testimonials" id="testimonials">
       <h1>Testimonials</h1>
       <div className="container">
-        <div className="card">
+        {data.map((d)=>(
+        <div className={d.featured ? "card featured " : "card" }>
           <div className="top">
             <img src="assets/right-arrow.png" className="left" alt="" />
             <img className="user"
-            src="https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
-            <img className="right" src="assets/youtube.png" alt="" />
+            src={d.img} alt="" />
+            <img className="right" src={d.icon} alt="" />
           </div>
-          <div className="center">Lorem ipsum 
-          dolor sit amet consectetur adipisicing 
-          elit. Excepturi quod totam, vitae incidunt v
+          <div className="center">{
+            d.desc
+          }
    </div>
           <div className="bottom">
-            <h3>Alex</h3>
-            <h4>CEO of LAMA</h4>
+            <h3>{d.name}</h3>
+            <h4>{d.title}</h4>
           </div>
-        </div>
+        </div>))}
       </div>
     </div>
   )
