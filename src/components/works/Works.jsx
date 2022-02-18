@@ -1,6 +1,8 @@
 import "./Works.scss"
 
 function Works() {
+
+
   return (
     <div className="works" id="works">
       <div className="slidebar">
@@ -18,16 +20,19 @@ function Works() {
                       facilis in eligendi aliquam odio voluptatem
                        ipsum veniam eos, eveniet sint eum molestiae!
                         Sint quod consequatur 
-                      laboriosam nobis sequi? Quis, in.</p>
+                     </p>
                       <span>Projects</span>
                 </div>
             </div>
             <div className="right">
-
+                <img src=" https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930 "
+                 alt="  img" />
             </div>
           </div>
         </div>
       </div>
+      <img src="assets/arrow.png" className="arrow left" alt="" />
+      <img src="assets/arrow.png" className="arrow right" alt="" />
     </div>
   )
 }
