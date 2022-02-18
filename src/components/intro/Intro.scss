@@ -19,8 +19,9 @@
       float: right;
       img {
         height: 100%;
-        object-fit: cover;
+        
       }
+      object-fit: cover;
     }
   }
   .right {
@@ -62,10 +63,10 @@
     a {
       position: absolute;
       bottom: 10px;
-      right: 40%;
+      right: 50%;
       img {
         position: relative;
-        width: 30px;
+        width: 40px;
         animation: arrowBlink 2s infinite;
       }
       @keyframes arrowBlink {
