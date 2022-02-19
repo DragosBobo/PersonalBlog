@@ -1,6 +1,6 @@
 @import "../../global.scss";
 .works {
-  background-color: crimson;
+  background-color: $mainColor;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,6 +29,7 @@
       height: 100vh;
       flex-direction: column;
       justify-content: center;
+      overflow: hidden;
     }
     .container {
       width: 100vw;
@@ -69,22 +70,33 @@
               display: flex;
               align-items: center;
               justify-content: center;
-
+              @include mobile {
+                display: none;
+              }
               img {
                 width: 25px;
               }
             }
             h2 {
               font-size: 20px;
+              @include mobile {
+                color: rgb(67, 7, 136);
+              }
             }
             p {
               font-size: 13px;
+              @include mobile {
+                display: none;
+              }
             }
             span {
               font-size: 12px;
               font-weight: 600;
               text-decoration: underline;
               cursor: pointer;
+              @include mobile {
+                display: none;
+              }
             }
           }
         }

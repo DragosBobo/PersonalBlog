@@ -1,0 +1,6 @@
+$width-for-samsungGalaxis8: 360px;
+@mixin samsung{
+    @media (max-width:#{$width-for-samsungGalaxis8}){
+        @content
+    }
+}

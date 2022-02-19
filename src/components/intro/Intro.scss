@@ -17,7 +17,7 @@
     .imgContainer {
       width: 1000px;
       height: 1000px;
-      background-color: crimson;
+      background-color: #39b6ff;
       border-radius: 50%;
       display: flex;
       justify-content: center;
@@ -56,9 +56,12 @@
       }
       h3 {
         font-size: 30px;
+        @include mobile {
+          
+        }
         span {
           font-size: inherit;
-          color: crimson;
+          color: #39b6ff;
         }
         .ityped-cursor {
           animation: blink 1s infinite;
