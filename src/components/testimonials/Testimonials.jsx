@@ -20,7 +20,7 @@ function Testimonials() {
         "https://scontent.fcra1-1.fna.fbcdn.net/v/t39.30808-6/271151128_3645272562264648_8402742632714446117_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=EsHWeHJoG1YAX9vQ7j8&tn=l-80_JORztCArx6y&_nc_ht=scontent.fcra1-1.fna&oh=00_AT9y__SNgWPZ7eT96qtvUveya--EgPWNRYz9h2DxKlefAg&oe=6215DEC4",
       icon: "assets/youtube.png",
       desc:
-        "nimic momentan :/ ",
+        "Bobo is a perseverant and curious man , who want's to learn something new every day  ",
       featured: true,
     },
     {

@@ -36,7 +36,6 @@
         height: 350px;
         box-shadow: none;
         border: 1px dashed salmon;
-        
       }
       &.featured {
         width: 300px;
@@ -62,6 +61,8 @@
           &.left,
           &.right {
             height: 25px;
+            
+           
           }
           &.user {
             height: 60px;
@@ -70,7 +71,6 @@
             object-fit: cover;
             margin: 0 30px;
             @include mobile {
-              
             }
           }
         }

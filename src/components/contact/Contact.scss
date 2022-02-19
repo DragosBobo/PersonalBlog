@@ -1,6 +1,6 @@
 @import "../../global.scss";
 .contact {
-  background-color: rgb(255, 255, 255);
+  background-color: $mainColor;
   display: flex;
 
   .left {
@@ -55,7 +55,8 @@
         }
       }
       span {
-        color: green;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
       }
     }
   }
