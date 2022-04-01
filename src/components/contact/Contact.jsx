@@ -15,12 +15,17 @@ setMessage(true);
       </div>
       <div className="right">
         <h2>Contact</h2>
-        <form onSubmit={handleSubmit}> 
-          <input type="text" placeholder="Email" />
-          <textarea  placeholder="Message">  </textarea>
+        <form onSubmit={handleSubmit} action="https://formsubmit.co/dragos.boboluta@yahoo.com" method="POST"> 
+          <input type="email" placeholder="Email" name="email" />
+          <textarea  placeholder="Message" type="text" name="message">  </textarea>
           <button type="submit">Send</button>
           {message && <span>Thanks , I'll reply soon</span>}
         </form>
+        {/* <form action="https://formsubmit.co/dragos.boboluta@yahoo.com" method="POST">
+     <input type="text" name="name" required>
+     <input type="email" name="email" required>
+     <button type="submit">Send</button>
+          </form> */}
       </div>
 
     </div>
