@@ -1,3 +1,5 @@
+import emailjs from '@emailjs/browser';
+
 import { useState } from "react";
 import "./Contact.scss"
 
@@ -7,6 +9,18 @@ function Contact() {
 e.preventDefault();
 setMessage(true);
   };
+  const sendEmail=(e)=>{
+    e.preventDefault();
+
+    emailjs.sendForm('gmail', 'template_014nx6n', e.target, '5A-dt42cQAxP7oFg-')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  }
+  
 
   return (
     <div className='contact ' id='contact'>  
@@ -15,7 +29,7 @@ setMessage(true);
       </div>
       <div className="right">
         <h2>Contact</h2>
-        <form onSubmit={handleSubmit} action="https://formsubmit.co/dragos.boboluta@yahoo.com" method="POST"> 
+        <form onSubmit={sendEmail} > 
           <input type="email" placeholder="Email" name="email" />
           <textarea  placeholder="Message" type="text" name="message">  </textarea>
           <button type="submit">Send</button>
@@ -27,7 +41,7 @@ setMessage(true);
      <button type="submit">Send</button>
           </form> */}
       </div>
-
+     
     </div>
   )
 }
