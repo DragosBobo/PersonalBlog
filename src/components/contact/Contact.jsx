@@ -17,7 +17,9 @@ setMessage(true);
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
-      });
+      }).then(()=>{
+        alert("Thank you , I'll respond soon ! :) ");
+      })
       e.target.reset();
   }
   
