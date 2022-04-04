@@ -6,8 +6,7 @@ function Testimonials() {
       id: 1,
       name: "Burciu Alexandru ",
       title: "Developer for ATOS Timisoara ",
-      img:
-        "https://scontent.fcra1-1.fna.fbcdn.net/v/t1.6435-9/190943555_1712906808896877_8608226842976003607_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=174925&_nc_ohc=NNuDzqGmg9kAX8zqWCG&_nc_ht=scontent.fcra1-1.fna&oh=00_AT_i0AW0v5r5LbbpAk2lHLZr9GrPsZHhsgLjmAs6lrs5pA&oe=6234E0A8",
+      img:"https://i.imgur.com/XmjD4YT.jpg",
       icon: "assets/twitter.png",
       desc:
         "He's a very serious guy, really good delivery and respects every deadline :*",
@@ -16,8 +15,7 @@ function Testimonials() {
       id: 2,
       name: "Filis Andrei ",
       title: "Student Politehnica Bucuresti ",
-      img:
-        "https://scontent.fcra1-1.fna.fbcdn.net/v/t39.30808-6/271151128_3645272562264648_8402742632714446117_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=EsHWeHJoG1YAX9vQ7j8&tn=l-80_JORztCArx6y&_nc_ht=scontent.fcra1-1.fna&oh=00_AT9y__SNgWPZ7eT96qtvUveya--EgPWNRYz9h2DxKlefAg&oe=6215DEC4",
+      img:"https://i.imgur.com/NbRym9x.jpg",
       icon: "assets/youtube.png",
       desc:
         "Bobo is a perseverant and curious man , who want's to learn something new every day  ",
@@ -27,8 +25,7 @@ function Testimonials() {
       id: 3,
       name: "Remus ",
       title: "London bank employed",
-      img:
-        "https://scontent.fcra1-1.fna.fbcdn.net/v/t1.18169-1/c0.0.260.260a/20664432_683129138552830_755641267856127665_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=7206a8&_nc_ohc=xOao3lgKNlEAX9QXZwq&_nc_ht=scontent.fcra1-1.fna&oh=00_AT_5tFFZT0QMOYDQEZnPY_Ud8bOWqDAa2b4s7Pf0xQhMIg&oe=6236B406",
+      img:"https://i.imgur.com/J2wQggs.jpg",
       icon: "assets/linkedin.png",
       desc:
         "tot nimic momentan :/",
